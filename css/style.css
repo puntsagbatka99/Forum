@@ -49,23 +49,3 @@ body{
 .right-side h1{
     color: white;
 }
-input {
-    border: none;
-    border-bottom: 1px solid gray;
-}
-.left-side input{
-    background-color: white;
-}
-.right-side input{
-    background-color: rgb(65, 91, 207);
-}
-select{
-    border: none;
-    border-bottom: 1px solid gray;
-}
-.left-side select{
-    background-color: white;
-}
-.right-side select{
-    background-color: rgb(65, 91, 207);
-}
