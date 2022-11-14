@@ -19,9 +19,23 @@ body{
     background-color: white;
     border-radius: 30px 0 0 30px;
     padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+
 }
 .left-side h1{
     color: rgb(65, 91, 207);
+}
+.inline{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.inside-element{
+    width: 50%;
+}
+.left-bottom{
+    width: 100%;
 }
 .right-side{
     width: 50%;
@@ -29,4 +43,29 @@ body{
     background-color: rgb(65, 91, 207);
     border-radius: 0 30px 30px 0;
     padding: 50px 70px;
+    display: flex;
+    flex-direction: column;
+}
+.right-side h1{
+    color: white;
+}
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.left-side input{
+    background-color: white;
+}
+.right-side input{
+    background-color: rgb(65, 91, 207);
+}
+select{
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.left-side select{
+    background-color: white;
+}
+.right-side select{
+    background-color: rgb(65, 91, 207);
 }

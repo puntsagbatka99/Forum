@@ -12,12 +12,14 @@
         <form action="" class="form">
             <div class="left-side">
                 <h1>General Information</h1>
-                <input type="text" name="First-Name" placeholder="First Name">
-                <input type="text" name="Last-Name" placeholder="Last Name">
-                <input type="email" name="Email" placeholder="Email">
-                <input type="date" name="Date">
-                <input type="text" name="Company" placeholder="Company">
-                <select>
+                <div class="inline">
+                    <input type="text" name="First-Name" placeholder="First Name" class="inside-element">
+                    <input type="text" name="Last-Name" placeholder="Last Name" class="inside-element">
+                </div>
+                <input type="email" name="Email" placeholder="Email" class="left-bottom">
+                <input type="date" name="Date" class="left-bottom">
+                <input type="text" name="Company" placeholder="Company" class="left-bottom">
+                <select class="left-bottom">
                     <option>Position</option>
                     <option>Mosition</option>
                     <option>Losition</option>
@@ -27,23 +29,29 @@
                 <h1>Contact Details</h1>
                 <input type="text" name="Street" placeholder="Street">
                 <input type="text" name="AI" placeholder="Additional Information">
-                <input type="number" name="Zip-Code" placeholder="Zip Code">
-                <select name="" id="">
-                    <option>Place</option>
-                    <option>Mongolia</option>
-                    <option>Russia</option>
-                    <option>China</option>
-                </select>
+                <div class="inline">
+                    <input type="number" name="Zip-Code" placeholder="Zip Code" class="inside-element">
+                    <select name="" class="inside-element">
+                        <option>Place</option>
+                        <option>Mongolia</option>
+                        <option>Russia</option>
+                        <option>China</option>
+                    </select>
+                </div>
                 <select name="country" id="">
                     <option>Country</option>
                     <option>Mongolia</option>
                     <option>Russia</option>
                     <option>China</option>
                 </select>
-                <input type="number" name="Code" placeholder="Code">
-                <input type="number" name="Phone-Number" placeholder="Phone Number">
-                <input type="radio" name="Accept">
-                <label for="Accept"> I do accept the <a href="#">Terms and Conditions</a> of your site.</label>
+                <div class="inline">
+                    <input type="number" name="Code" placeholder="Code" class="inside-element">
+                    <input type="number" name="Phone-Number" placeholder="Phone Number" class="inside-element">
+                </div>
+                <div class="label">
+                    <input type="radio" name="Accept">
+                    <label for="Accept"> I do accept the <a href="#">Terms and Conditions</a> of your site.</label>
+                </div>
                 <input type="submit" value="Register Badge">
             </div>
         </form>
